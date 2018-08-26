@@ -1,3 +1,4 @@
 # execute lamp stack install script
 # make sure to use raw file
+# wget -O - https://raw.githubusercontent.com/<username>/<project>/<branch>/<path>/<file> | bash
 wget -O - https://raw.githubusercontent.com/bobbyxi000/Install-LAMP-Stack/master/installLAMP.sh | sudo bash
