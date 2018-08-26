@@ -1,2 +1,3 @@
 # installlampstack.sh
-This will install lampstack on your VM
+This will install LAMP Stack on your VM
+Use the curl command to execute remote install.
