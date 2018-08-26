@@ -19,3 +19,4 @@ cat << EOF >> itop.conf
         SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
 </VirtualHost>
 EOF
+ln -s /etc/httpd/sites-available/itop.conf /etc/httpd/sites-enabled/itop.conf
