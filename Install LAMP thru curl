@@ -1,2 +1,3 @@
 # execute lamp stack install script
-bash <(curl -s https://github.com/bobbyxi000/Install-LAMP-Stack/blob/master/installLAMP.sh)
+# make sure to use raw file
+wget -O - https://raw.githubusercontent.com/bobbyxi000/Install-LAMP-Stack/master/installLAMP.sh | sudo bash
