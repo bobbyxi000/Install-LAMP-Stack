@@ -1,5 +1,5 @@
 #!/bin/bash
-#install apache and latest version of mariadb
+# install apache and latest version of mariadb
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 yum install mariadb mariadb-server httpd -y
 systemctl start httpd mariadb
