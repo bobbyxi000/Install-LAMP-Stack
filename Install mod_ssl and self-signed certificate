@@ -1,0 +1,2 @@
+# install mod_ssl and self-signed certificate
+wget -O - https://raw.githubusercontent.com/bobbyxi000/Install-LAMP-Stack/master/install_mod_ssl.sh | sudo bash
